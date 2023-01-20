@@ -1,7 +1,8 @@
 body {
     margin: 0;
     font-family: 'Quattrocento', serif;
-    color: #d4a373
+    color: #d4a373;
+    border: 5px solid #faf3dd;
 }
 
 img {
