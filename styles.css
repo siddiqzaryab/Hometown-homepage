@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: 'Quattrocento', serif;
+    color: #d4a373
+}
+
+img {
+    width: 100px;
+    object-fit: cover;    
+}
+
+h4 {
+    font-size: 20px;
+}
+p {
+    text-shadow: 0 0 1px gray;
+}
+
+#hero-section {
+    background: url("https://images.unsplash.com/photo-1637443966109-8f1d88ea113b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80") center center/cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+#hero-title {
+    color: #fefae0;
+    font-size: 150px;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: 30px;
+    text-shadow: 0 0 5px black;
+    
+    
+}
+
+#hero-text {
+    font-size: 18px;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px black;
+    font-weight: 400;
+}
+
+#activities-section {
+    padding: 40px;
+    background-color: #faf3dd;
+    text-align: center
+}
+
+#activities-section h3 {
+    margin-top: 0;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.activities-item {
+    margin: 0 20px;
+}
+
+.activities-item img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+#guide-section {
+    background-color: #cdedfd;
+    color: #1D3557;
+    padding: 30px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 6px 0px #1D3557;
+    text-align: center;
+}
+
+#guide-section img {
+    width: 200px;
+    border-radius: 10px;
+    border: 8px solid #faf3dd;
+    margin-right: 10px;
+}
+
+#guide-section div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#guide-section div p {
+    margin: 0;
+    font-style: italic;
+    width: 200px;
+}
