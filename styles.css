@@ -58,7 +58,7 @@ p {
 
 .activities {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-top: 40px;
 }
