@@ -65,7 +65,10 @@ p {
 }
 
 .activities-item {
-    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-item: center;
+    justify-content: space-between;
     width: 250px;
 }
 
