@@ -67,7 +67,7 @@ p {
 .activities-item {
     display: flex;
     flex-direction: column;
-    align-item: center;
+    align-items: center;
     justify-content: space-between;
     width: 250px;
 }
